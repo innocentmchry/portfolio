@@ -4,34 +4,34 @@ import {BiCheck} from 'react-icons/bi'
 const Services = () => {
   return (
     <section id='services'>
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>What I am currently learning</h5>
+      <h2>Interests</h2>
 
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Web Development</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Website design and development</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>E-commerce development</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Website maintenance and support</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Search engine optimization (SEO)</p>
             </li>
 
           </ul>
@@ -41,28 +41,23 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>App Development</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Mobile app development</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Desktop app development</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Game development</p>
             </li>
 
           </ul>
@@ -72,28 +67,28 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Machine Learning</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Data analysis and preprocessing</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Supervised learning</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Unsupervised learning</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Deep learning</p>
             </li>
 
           </ul>

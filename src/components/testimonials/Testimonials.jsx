@@ -19,29 +19,29 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Tina Snow', 
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quibusdam facilis, ab unde corrupti aliquam ut consequatur ipsa, repellendus, ad laboriosam voluptas id voluptatibus esse!'
+    review: 'Your work on this project was outstanding. Your attention to detail and ability to think critically were evident in the quality of your analysis and recommendations.'
   },
   {
     avatar: AVTR2,
-    name: 'Ranold Timber', 
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quibusdam facilis, ab unde corrupti aliquam ut consequatur ipsa, repellendus, ad laboriosam voluptas id voluptatibus esse!'
+    name: 'Raynold Timber', 
+    review: 'I was impressed with your ability to work independently and collaboratively, demonstrating strong communication and problem-solving skills throughout the project.'
   },
   {
     avatar: AVTR3,
-    name: 'Dakota Johnson', 
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quibusdam facilis, ab unde corrupti aliquam ut consequatur ipsa, repellendus, ad laboriosam voluptas id voluptatibus esse!'
+    name: 'Duke Johnson', 
+    review: 'Your coding skills are exceptional, and your ability to apply those skills to solve complex problems is truly remarkable. Keep up the great work!'
   },
   {
     avatar: AVTR4,
-    name: 'Johnny Dev', 
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quibusdam facilis, ab unde corrupti aliquam ut consequatur ipsa, repellendus, ad laboriosam voluptas id voluptatibus esse!'
+    name: 'Selina Mogez', 
+    review: 'Your dedication to learning and mastering new technologies is evident in the high-quality work you produced on this project. I have no doubt you will continue to excel in your career.'
   }
 ]
 
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from clients</h5>
+      <h5>Appraisals</h5>
       <h2>Testimonials</h2>
 
       <Swiper className='container testimonials__container'

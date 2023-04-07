@@ -11,42 +11,42 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency DashBoard & Financial Visualization',
+    title: 'Library Information System',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Charts Templates & Infographics in figma',
+    title: 'Webpage for Technical Clubs',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Tennis School Website: animation',
+    title: 'Machine Learning and Computer Vision Project',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Crypto Currency DashBoard & Financial Visualization',
+    title: 'Data Science and Autism Research Project',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Sneaker Store Mobile IOS App',
+    title: 'Unity Game Development',
     github: 'https://github.com',
     demo: 'https://github.com'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Visualization Turn up the sound and enjoy!',
+    title: 'Capstone Project!',
     github: 'https://github.com',
     demo: 'https://github.com'
   }
