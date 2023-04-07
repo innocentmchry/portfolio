@@ -102,7 +102,7 @@ const Experience = () => {
               <FiCode className='experience__details-icon' />
               <div>
                 <h4>C</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
 
@@ -110,7 +110,7 @@ const Experience = () => {
              <FaPython className='experience__details-icon'/>
              <div>
               <h4>Python</h4>
-              <small className='text-light'>Experienced</small>
+              <small className='text-light'>Intermediate</small>
              </div>
             </article>
 
@@ -140,7 +140,7 @@ const Experience = () => {
              <SiDocker className='experience__details-icon'/>
              <div>
               <h4>Docker</h4>
-              <small className='text-light'>Experienced</small>
+              <small className='text-light'>Beginner</small>
              </div>
             </article>
 
