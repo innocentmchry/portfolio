@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 120vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -8,6 +8,7 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
+    z-index: 999;
 }
 
 /* =========== CTA ========== */
@@ -65,7 +66,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 100vh;
+        height: 80vh;
     }
 
 }
