@@ -1,9 +1,8 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
+import PHN from '../../assets/phn.png'
+import EDU from '../../assets/edulyt.png'
+import COD from '../../assets/coding.png'
 
 
 // import Swiper core and required modules
@@ -17,32 +16,27 @@ import 'swiper/css/pagination';
 
 const data = [
   {
-    avatar: AVTR1,
-    name: 'Tina Snow', 
-    review: 'Your work on this project was outstanding. Your attention to detail and ability to think critically were evident in the quality of your analysis and recommendations.'
+    avatar: PHN,
+    name: 'PHN Technologies', 
+    review: 'Web Developer Intern @ PHN Technology Pvt. Ltd. Joining Date 6th April 2023.'
   },
   {
-    avatar: AVTR2,
-    name: 'Raynold Timber', 
-    review: 'I was impressed with your ability to work independently and collaboratively, demonstrating strong communication and problem-solving skills throughout the project.'
+    avatar: EDU,
+    name: 'Edulyt India', 
+    review: 'Fellowship Program(Analytics) @ Edulyt India. Joining Date 12th April 2023'
   },
   {
-    avatar: AVTR3,
-    name: 'Duke Johnson', 
-    review: 'Your coding skills are exceptional, and your ability to apply those skills to solve complex problems is truly remarkable. Keep up the great work!'
-  },
-  {
-    avatar: AVTR4,
-    name: 'Selina Mogez', 
-    review: 'Your dedication to learning and mastering new technologies is evident in the high-quality work you produced on this project. I have no doubt you will continue to excel in your career.'
+    avatar: COD,
+    name: 'Coding Club CITK', 
+    review: 'Founding member, Coordinator and Instructor of students during various bootcamps and workshops. Tenure: Jan 2022 to April 2023'
   }
 ]
 
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Appraisals</h5>
-      <h2>Testimonials</h2>
+      <h5>Internships, Certifications, Trainings</h5>
+      <h2>Activities</h2>
 
       <Swiper className='container testimonials__container'
         // install Swiper modules
