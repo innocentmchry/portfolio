@@ -120,11 +120,11 @@ const Experience = () => {
         <div className="experience__others">
           <h3>Others</h3>
           <div className="experience__content">
-            <article className="experience__details">
+          <article className="experience__details">
              <BsGithub className='experience__details-icon' />
              <div>
-              <h4>Git</h4>
-              <small className='text-light'>Experienced</small>
+              <h4>Android Studio</h4>
+              <small className='text-light'>Beginner</small>
              </div>             
             </article>
 
@@ -137,11 +137,11 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-             <SiDocker className='experience__details-icon'/>
+             <BsGithub className='experience__details-icon' />
              <div>
-              <h4>Docker</h4>
-              <small className='text-light'>Beginner</small>
-             </div>
+              <h4>Git</h4>
+              <small className='text-light'>Experienced</small>
+             </div>             
             </article>
 
           </div>

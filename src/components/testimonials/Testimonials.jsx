@@ -3,7 +3,7 @@ import './testimonials.css'
 import PHN from '../../assets/phn.png'
 import EDU from '../../assets/edulyt.png'
 import COD from '../../assets/coding.png'
-
+import IITG from '../../assets/IITG.png'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -15,6 +15,11 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const data = [
+  {
+    avatar: IITG,
+    name: 'Indian Instititute of Technology, Guwahati', 
+    review: 'Summer Intern @ IITG Joining Date 22nd June 2023.'
+  },
   {
     avatar: PHN,
     name: 'PHN Technologies', 

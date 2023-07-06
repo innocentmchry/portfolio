@@ -21,17 +21,7 @@ const Services = () => {
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>E-commerce development</p>
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon' />
               <p>Website maintenance and support</p>
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Search engine optimization (SEO)</p>
             </li>
 
           </ul>
@@ -47,12 +37,7 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Mobile app development</p>
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Desktop app development</p>
+              <p>Android App development</p>
             </li>
 
             <li>
@@ -73,22 +58,17 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Data analysis and preprocessing</p>
+              <p>Data Analysis and Preprocessing</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Supervised learning</p>
+              <p>Deep Learning, Neural Networks</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Unsupervised learning</p>
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Deep learning</p>
+              <p>Computer Vision, Image Processing</p>
             </li>
 
           </ul>
