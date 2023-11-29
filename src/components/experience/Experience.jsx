@@ -12,7 +12,9 @@ import {FaJava} from 'react-icons/fa'
 import {FiCode} from 'react-icons/fi'
 import {BsGithub} from 'react-icons/bs'
 import {BsUnity} from 'react-icons/bs'
-import {SiDocker} from 'react-icons/si'
+import { SiDjango } from "react-icons/si";
+import { SiFlask } from "react-icons/si";
+import { BsAndroid2 } from "react-icons/bs";
 
 const Experience = () => {
   return (
@@ -61,6 +63,23 @@ const Experience = () => {
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">
+            
+            <article className="experience__details">
+              <SiDjango className='experience__details-icon'/>
+              <div>
+                <h4>Django</h4>
+                <small className='text-light'>Experienced</small>
+              </div>              
+            </article>
+
+            <article className="experience__details">
+              <SiFlask className='experience__details-icon'/>
+              <div>
+                <h4>Flask</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>              
+            </article>
+
             <article className="experience__details">
               <SiPhp className='experience__details-icon'/>
               <div>
@@ -77,13 +96,6 @@ const Experience = () => {
               </div>              
             </article>
 
-            <article className="experience__details">
-              <FaPython className='experience__details-icon'/>
-              <div>
-                <h4>Python</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>              
-            </article>
           </div>
         </div>
 
@@ -102,7 +114,7 @@ const Experience = () => {
               <FiCode className='experience__details-icon' />
               <div>
                 <h4>C</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Beginner</small>
               </div>
             </article>
 
@@ -114,6 +126,7 @@ const Experience = () => {
              </div>
             </article>
 
+
           </div>
         </div>
 
@@ -121,7 +134,7 @@ const Experience = () => {
           <h3>Others</h3>
           <div className="experience__content">
           <article className="experience__details">
-             <BsGithub className='experience__details-icon' />
+             <BsAndroid2 className='experience__details-icon' />
              <div>
               <h4>Android Studio</h4>
               <small className='text-light'>Beginner</small>

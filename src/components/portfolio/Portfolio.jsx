@@ -6,28 +6,60 @@ import IMG3 from '../../assets/portfolio3.jpeg';
 import IMG4 from '../../assets/portfolio4.png';
 import IMG5 from '../../assets/portfolio5.jpeg';
 import IMG6 from '../../assets/portfolio6.png';
+import IMG7 from '../../assets/portfolio7.png';
+import IMG8 from '../../assets/portfolio8.png';
+import IMG9 from '../../assets/portfolio9.png';
+import IMG10 from '../../assets/portfolio10.png';
 
 const data = [
   {
+    id: 8,
+    image: IMG8,
+    title: 'Video Conferencing web-app powered with Computer Vision',
+    github: 'https://github.com/innocentmchry/webrtcdjango',
+    demo: '#'
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'Affective Gaming in Android',
+    github: 'https://github.com/innocentmchry/SaveThePig',
+    demo: '#'
+  },
+  {
     id: 1,
     image: IMG1,
-    title: 'Live Emotion Detection in Android (Android Studio)',
-    github: '#',
+    title: 'Real Time Emotion Detection in Android',
+    github: 'https://github.com/innocentmchry/emotion-detection-android',
     demo: '#'
   },
   {
     id: 2,
     image: IMG2,
     title: 'Autism Spectrum Disorder Detection using Deep Learning',
-    github: '#',
-    demo: 'https://drive.google.com/drive/folders/1Gvmubs_ZG0Gx9Xe-j7T6ve19FODYbp3d?usp=sharing'
+    github: 'https://github.com/innocentmchry/autism-classification',
+    demo: '#'
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: 'Image Processing in Django (Valence-Arousal Predictor)',
+    github: 'https://github.com/innocentmchry/valence-arousal-django',
+    demo: '#'
+  },
+  {
+    id: 10,
+    image: IMG10,
+    title: 'Hate Speech Classification in Bodo',
+    github: 'https://github.com/innocentmchry/hate-speech-classification-bodo-nlp',
+    demo: '#'
   },
   {
     id: 3,
     image: IMG3,
     title: 'Webpage for Technical Clubs of CIT',
-    github: '#',
-    demo: 'https://roboticsclub.cit.ac.in/'
+    github: 'https://roboticsclub.cit.ac.in/',
+    demo: '#'
   },
   {
     id: 4,
@@ -68,7 +100,7 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={demo} className='btn btn-primary' target='_blank'>Link</a>
+                <a href={github} className='btn btn-primary' target='_blank'>Link</a>
               </div>          
               </article>
             )

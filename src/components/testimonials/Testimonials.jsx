@@ -1,9 +1,8 @@
 import React from 'react'
 import './testimonials.css'
-import PHN from '../../assets/phn.png'
-import EDU from '../../assets/edulyt.png'
 import COD from '../../assets/coding.png'
 import IITG from '../../assets/IITG.png'
+import ROBOT from '../../assets/robot.png'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -18,22 +17,17 @@ const data = [
   {
     avatar: IITG,
     name: 'Indian Instititute of Technology, Guwahati', 
-    review: 'Summer Intern @ IITG Joining Date 22nd June 2023.'
-  },
-  {
-    avatar: PHN,
-    name: 'PHN Technologies', 
-    review: 'Web Developer Intern @ PHN Technology Pvt. Ltd. Joining Date 6th April 2023.'
-  },
-  {
-    avatar: EDU,
-    name: 'Edulyt India', 
-    review: 'Fellowship Program(Analytics) @ Edulyt India. Joining Date 12th April 2023'
+    review: 'Summer Intern @ IITG. Tenure: June 2023 to July 2023'
   },
   {
     avatar: COD,
     name: 'Coding Club CITK', 
     review: 'Founding member, Coordinator and Instructor of students during various bootcamps and workshops. Tenure: Jan 2022 to April 2023'
+  },
+  {
+    avatar: ROBOT,
+    name: 'Robotics Club CITK', 
+    review: 'Web Developer, Tenure: Jan 2022 to April 2023'
   }
 ]
 
