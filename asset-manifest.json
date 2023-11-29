@@ -1,26 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.5755dad6.css",
-    "main.js": "/static/js/main.e00da7c6.js",
-    "static/media/portfolio4.png": "/static/media/portfolio4.75c5dd95b6b3ef76b948.png",
+    "main.js": "/static/js/main.4751e71e.js",
+    "static/media/portfolio8.png": "/static/media/portfolio8.a2d7b24c45d9fa5253a7.png",
     "static/media/me.png": "/static/media/me.d1bb30d83d3c19f0d2a2.png",
+    "static/media/portfolio4.png": "/static/media/portfolio4.d595b3b0a494f5c73e44.png",
     "static/media/portfolio2.png": "/static/media/portfolio2.7235716910253790dc0b.png",
+    "static/media/portfolio7.png": "/static/media/portfolio7.c4129400f29aa73c9a60.png",
     "static/media/me-about.jpeg": "/static/media/me-about.4e80ff4aec5ccb56581d.jpeg",
     "static/media/portfolio5.jpeg": "/static/media/portfolio5.b068cdefbdb1a929c39b.jpeg",
     "static/media/portfolio6.png": "/static/media/portfolio6.1517fe9ae9e00bbaf96c.png",
-    "static/media/cv.pdf": "/static/media/cv.92a20a117fea7c8184fa.pdf",
-    "static/media/portfolio1.jpeg": "/static/media/portfolio1.3e9b41d7fc01e64719de.jpeg",
-    "static/media/edulyt.png": "/static/media/edulyt.c44f22876821708efa85.png",
+    "static/media/cv.pdf": "/static/media/cv.f4ab34c115a892d37f7e.pdf",
+    "static/media/portfolio1.jpeg": "/static/media/portfolio1.22d43e09133aaaa818c9.jpeg",
+    "static/media/portfolio10.png": "/static/media/portfolio10.14c10ac9e92713e2b01c.png",
+    "static/media/portfolio9.png": "/static/media/portfolio9.5882626304140bb30092.png",
     "static/media/portfolio3.jpeg": "/static/media/portfolio3.246196186c3acfa62cec.jpeg",
     "static/media/IITG.png": "/static/media/IITG.5b06d4dbea0cb2ba67ed.png",
     "static/media/coding.png": "/static/media/coding.bb7516646c27c5e3cac4.png",
-    "static/media/phn.png": "/static/media/phn.92f42df03aa346ccd179.png",
     "index.html": "/index.html",
     "main.5755dad6.css.map": "/static/css/main.5755dad6.css.map",
-    "main.e00da7c6.js.map": "/static/js/main.e00da7c6.js.map"
+    "main.4751e71e.js.map": "/static/js/main.4751e71e.js.map"
   },
   "entrypoints": [
     "static/css/main.5755dad6.css",
-    "static/js/main.e00da7c6.js"
+    "static/js/main.4751e71e.js"
   ]
 }
